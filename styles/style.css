@@ -85,7 +85,9 @@ button {
   border-color: rgb(250,240,230);
   border-radius: 10px;
   font-family: "Poor Story", serif;
-  font-size: 1.25rem;
+  font-size: 1.50rem;
+  font-weight: 200;
+  letter-spacing: 0.2em;
   text-transform: capitalize;
 }
 
