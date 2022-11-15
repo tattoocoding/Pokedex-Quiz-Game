@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    background:white;
+    font-family: "Poor Story", serif;
+
+  }
+  
+  .header {
+    background: black;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 0 8px rgba(0,0,0,.1);
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+  }
+  
+  .profile-image {
+    background: white;
+    box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    margin: 10px;
+  }
+  
+  .logo {
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+.search {
+    border: none;
+    border-radius: 8px;
+    border-color: white;
+    background: black;
+    color: white;
+    padding: 8px 24px;
+    font-size: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+    margin: 10px;
+    padding: 0;
+    gap: 16px;
+    font-size: 20px;
+  }
+
+  .left, .right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+/*end of*/
+  img {
+    width: 100px;
+    height: 100px;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+  }
+  
+  .info {
+    max-width: 200px;
+  }
