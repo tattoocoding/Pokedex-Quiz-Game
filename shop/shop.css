@@ -59,7 +59,12 @@ body {
     align-items: center;
     gap: 16px;
   }
-/*end of*/
+/*end of nav bar*/
+
+.categories {
+  display: flex;
+/*I'm in danger :) figure this shit out later gorl lol it is making everything else move!*/
+}
   img {
     width: 100px;
     height: 100px;
@@ -67,9 +72,19 @@ body {
   .container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 52px;
+    padding: 32px;
   }
   
   .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     max-width: 200px;
+    border: 1px solid #eee;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 4px;
+    padding: 16px;
+    margin: 16px;
   }
